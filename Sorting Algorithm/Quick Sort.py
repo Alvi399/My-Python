@@ -14,7 +14,7 @@ def partition1(S,low,high):
     return pivotpoint
 
 def quicksort1(S,low,high):
-    if low < high:
+    if low < high: 
         print(S)
         pivotpoint = partition1(S,low,high)
         quicksort1(S,low,pivotpoint - 1)
